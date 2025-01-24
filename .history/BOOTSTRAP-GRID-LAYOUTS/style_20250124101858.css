@@ -1,0 +1,14 @@
+body {
+  background-color: #ddd;
+}
+.header {
+  background-color: blue;
+  height: 40px;
+}
+.content {
+  min-height: 500px;
+}
+.footer {
+  background-color: rgba(red);
+  height: 40px;
+}
