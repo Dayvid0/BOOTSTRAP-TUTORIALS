@@ -1,0 +1,11 @@
+.header {
+  background-color: blue;
+  height: 40px;
+}
+.content {
+  background-color: #ddd;
+  min-height: 500px;
+}
+.footer {
+  background-color: rgba(red);
+}
