@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Previous meta tags and Bootstrap CSS remain the same -->
+    <title>Cosmos-example</title>
+    <style>
+      body {
+        background-color: #ecf3ff;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .main-content {
+        background-color: #4682b4;
+        padding: 20px;
+        height: calc(100vh - 56px);
+        overflow-y: auto;
+        overflow-x: hidden;
+        color: white; /* Added text color for main content */
+      }
+      .sidebar {
+        height: calc(100vh - 56px);
+        border-right: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        overflow-y: auto;
+      }
+      .card {
+        margin-bottom: 20px;
+        height: 100%;
+        color: #333; /* Dark text for cards */
+      }
+      .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+      }
+      .row {
+        margin-right: 0;
+        margin-left: 0;
+      }
+      /* Added styles for better text visibility */
+      .list-group-item {
+        color: #333;
+      }
+      .sidebar {
+        color: #333;
+        background-color: white;
+      }
+      /* Style for the sidebar header */
+      .sidebar-header {
+        padding: 15px;
+        font-weight: bold;
+        color: #333;
+      }
+      /* Optional: Style links in the main content */
+      .main-content a {
+        color: #fff;
+        text-decoration: underline;
+      }
+      /* Style for card links */
+      .card a.btn-primary {
+        color: white;
+      }
+    </style>
+  </head>
+  <!-- Rest of your HTML structure remains the same, but replace the "SIDE-BAR" text with: -->
+  <body>
+    <!-- Previous navbar code remains the same -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="sidebar col-md-2">
+          <div class="sidebar-header">SIDE-BAR</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">HOME</li>
+            <li class="list-group-item">DASHBOARD</li>
+            <li class="list-group-item">EVENTS</li>
+            <li class="list-group-item">GETTING STARTED</li>
+            <li class="list-group-item">ABOUT US</li>
+          </ul>
+        </div>
+        <!-- Main content structure remains the same -->
+      </div>
+    </div>
+    <!-- Previous script tags remain the same -->
+  </body>
+</html>
