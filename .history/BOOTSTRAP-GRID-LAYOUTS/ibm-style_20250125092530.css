@@ -1,0 +1,5 @@
+.sidebar {
+  background-color: #777;
+  max-height: 900px;
+  overflow-y: scroll;
+}
