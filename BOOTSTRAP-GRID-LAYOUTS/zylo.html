@@ -68,9 +68,20 @@
         </div>
       </div>
     </nav>
-      <div class="row">
+      <div class="row  ">
         <input class="form-control  mx-4 w-auto " type="search" placeholder="Search Table Contents..." aria-label="Search">
         <h1 class="mx-4">Applications</h1>
+      </div>
+      <!--buttons-->
+      <div class="col d-flex  justify-content-end pb-4">
+            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Add New Application</button>
+        </div>
+      </div>
+      <div class="col pb-4 d-flex gap-3 justify-content-end align-items ">
+        <button type="button" class="btn btn-outline-danger">Pdf</button>
+        <button type="button" class="btn btn-outline-success">Download</button>
+        <button type="button" class="btn btn-outline-info">Submit Application</button>
       </div>
       <!--Alerts-->
       <div class="alert alert-primary d-flex align-items-left  w-25 mx-2" role="alert">
@@ -105,34 +116,91 @@
         </tr>
         <tr>
           <th scope="row">2</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td class="bg-danger">15k USD</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
           <td>Jacob</td>
           <td>Thornton</td>
           <td>@fat</td>
           <td class="bg-danger">20k USD</td>
         </tr>
         <tr>
-          <th scope="row">3</th>
+          <tr>
+            <th scope="row">4</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>  
+            <td class="bg-danger">20k USD</td>
+          </tr>
+          <tr>
+          <th scope="row">5</th>
           <td >Larry </td>
           <td>the Bird</td>
           <td>@twitter</td>
           <td class="bg-danger">30k USD</td>
         </tr>
         <tr>
-          <th scope="row">4</th>
+          <th scope="row">6</th>
           <td>Mark</td>
           <td>Otto</td>
           <td>@mdo</td>
           <td class="bg-danger">15k USD</td>
         </tr> 
         <tr>
-          <th scope="row">5</th>
+          <th scope="row">7</th>
           <td>Jacob</td>
           <td>Thornton</td>
           <td>@fat</td>
           <td class="bg-danger">20k USD</td>
         </tr>
         <tr>
-          <th scope="row">6</th>
+          <th scope="row">8</th>
+          <td>Larry </td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+          <td class="bg-danger">30k USD</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td class="bg-danger">15k USD</td>
+        </tr> 
+        <tr>
+          <th scope="row">10</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+          <td class="bg-danger">20k USD</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td>Larry </td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+          <td class="bg-danger">30k USD</td>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td class="bg-danger">15k USD</td>
+        </tr> 
+        <tr>
+          <th scope="row">13</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+          <td class="bg-danger">20k USD</td>
+        </tr>
+        <tr>
+          <th scope="row">14</th>
           <td>Larry </td>
           <td>the Bird</td>
           <td>@twitter</td>
@@ -150,6 +218,31 @@
       <button type="button" class="btn btn-outline-primary">6</button>
     </div>
   </div>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">NEW APPLICATION</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Live demo
+Toggle a working modal demo by clicking the button below. It will slide down and fade in from the top of the page.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Download</button>
+        <button type="button" class="btn btn-success">PDF</button>
+        <button type="button" class="btn btn-info">Print</button>
+      </div>
+    </div>
+  </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
