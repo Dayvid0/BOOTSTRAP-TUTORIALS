@@ -16,59 +16,36 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row w-auto">
-          <div class="card m-2 col-md-3 bg-info text-white" style="width: 24rem;">
-              <div class="card-body">
-                  <h5 class="card-title">Spending</h5>
-                  <h6>10M</h6>
-                  <a href="#" class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#showSpending">
-                      Show more...
-                  </a>
-              </div>
-      <!-- Collapsible Message -->
-      <div class="collapse bg-warning p-2" id="showSpending">
-          Div showing Spending
-      </div>
-  </div>
-        <div class="card m-2 col-md-3 bg-danger" style="width: 24rem;">
+      <div class="row ">
+        <div class="card m-2 col-md-3 bg-info text-white" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Spending</h5>
+            <h6>10M</h6>
+            <a href="#" class="btn btn-link" data-toggle="collapse" data-bs-target="#showSpending"> Show more...</a>
+          </div>
+        </div>
+        <!--collapse message-->
+        <div class="collapse bg-warning" id="showSpending">
+          Div showing Spending 
+        </div>
+        <div class="card m-2 col-md-3 bg-danger" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">Cost</h5>
             <h6>10M</h6>
-            <a href="#" class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#showCost">
-              Show more...
-          </a>
           </div>
         </div>
-          <!-- Collapsible Message -->
-      <div class="collapse bg-warning p-2" id="showCost">
-        Div showing Spending
-    </div>
-        <div class="card m-2 col-md-3 bg-warning" style="width: 24rem;">
+        <div class="card m-2 col-md-3 bg-warning" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">This Month</h5>
             <h6>10M</h6>
-            <a href="#" class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#showThismonth">
-              Show more...
-          </a>
           </div>
         </div>
-        <!-- Collapsible Message -->
-      <div class="collapse bg-warning p-2" id="showThismonth">
-        Div showing Spending
-    </div>
-        <div class="card m-2 col-md-3 bg-success text-white" style="width: 24rem;">
+        <div class="card m-2 col-md-3 bg-success text-white" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">Next Month</h5>
             <h6>10M</h6>
-            <a href="#" class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#showNextmonth">
-              Show more...
-          </a>
           </div>
         </div>
-        <!-- Collapsible Message -->
-      <div class="collapse bg-warning p-2" id="showNextmonth">
-        Div showing Spending
-    </div>
       </div>
     </div>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
